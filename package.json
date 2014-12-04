@@ -1,0 +1,17 @@
+{
+  "name": "a-events",
+  "version": "1.0.0",
+  "description": "Event handler library",
+  "main": "index.js",
+  "scripts": {
+    "test": "$(npm bin)/mocha -u tdd tests/index.js"
+  },
+  "author": "Lajos Koszti",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.0.1",
+    "requirejs": "^2.1.15",
+    "sinon": "^1.12.1"
+  }
+}
