@@ -29,10 +29,10 @@ require(['events'], function (events) {
 ```javascript
 require(['events'], function (events) {
 	function Foo() {}
-	Foo.prototype = events()
+	Foo.prototype = events();
 	Foo.prototype.emitter = function () {
 		this.emit('aEvent', arg1, arg2, arg3);
-	}
+	};
 	var object = new Foo();
 	object.on('aEvent', function (argPredefined, arg1, arg2, arg3) {
 		console.log(argPredefined, arg1, arg2, arg3);
